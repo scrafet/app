@@ -11,7 +11,7 @@ def myfirstview(request):
     }
     # return HttpResponse('hola esta es mi  primera url')
     # return JsonResponse(data)
-    return render(request, 'index.html', data)
+    return render(request, 'home.html', data)
 
 def mysecondview(request):
     data = {
